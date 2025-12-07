@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Generations of Recipes - Contact Us</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+		crossorigin="anonymous">
+
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background-color: #fafafa;
+		}
+
+		header {
+			padding: 0;
+			background-color: #E8C7B3;
+			border-bottom: 2px solid #ddd;
+		}
+
+		.top-header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px 40px;
+		}
+
+		.header-family-image {
+			width: 120px;
+			height: auto;
+		}
+
+		.header-spacer {
+			width: 120px;
+		}
+
+		.site-title {
+			font-family: "Brush Script MT", cursive;
+			font-size: 48px;
+			margin: 0;
+			text-align: center;
+			flex: 1;
+		}
+
+		.contact-section {
+			padding: 50px 20px;
+			background-color: #FAF3E3;
+			text-align: center;
+		}
+
+		.contact-box {
+			background-color: white;
+			padding: 25px;
+			border-radius: 10px;
+			box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+			margin-bottom: 30px;
+		}
+
+		footer {
+			text-align: center;
+			padding: 20px;
+			background-color: #ccc;
+			margin-top: 40px;
+		}
+	</style>
+</head>
+
+<body>
+
+<header>
+	<div class="top-header">
+		<img src="family-illustration.png" class="header-family-image" alt="Family illustration">
+		<h1 class="site-title">Generations Of Recipes</h1>
+		<div class="header-spacer"></div>
+	</div>
+</header>
+
+<nav class="navbar navbar-expand-md navbar-light bg-white border-bottom">
+	<a class="navbar-brand d-md-none" href="index.html">Generations Of Recipes</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" 
+		aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="recipes.html">Recipes</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="album.html">Album</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<main>
+<section class="contact-section">
+
+	<h2>Contact Us</h2>
+	<p>Have questions, suggestions, or family recipes you'd love to share? We'd love to hear from you!</p>
+
+	<div class="container">
+		<div class="row justify-content-center">
+
+			<div class="col-md-6 contact-box text-left">
+				<h4>Reach Out</h4>
+				<p><strong>Email:</strong> <a href="mailto:generationsofrecipes@yahoo.com">generationsofrecipes@yahoo.com</a></p>
+				<p><strong>Instagram:</strong> @generationsrecipes</p>
+				<p><strong>Facebook:</strong> Generations of Recipes</p>
+			</div>
+
+			<div class="col-md-6 contact-box text-left">
+				<h4>Send Us a Message</h4>
+
+				<form>
+					<div class="form-group">
+						<label for="name">Your Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your name">
+					</div>
+
+					<div class="form-group">
+						<label for="email">Your Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email">
+					</div>
+
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" rows="4" placeholder="Write your message here"></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-primary" style="background-color:#E8C7B3; border:none; color:black;">
+						Send
+					</button>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+</section>
+</main>
+
+<footer>
+	<p>Follow us on Instagram and Facebook</p>
+	<p>Email us: 
+		<a href="mailto:generationsofrecipes@yahoo.com">generationsofrecipes@yahoo.com</a>
+	</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+	crossorigin="anonymous"></script>
+
+</body>
+</html>
